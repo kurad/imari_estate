@@ -80,11 +80,6 @@
         @include('home.testmonial')
     </section>
 
-    <!-- Neighborhood Guides Section -->
-    <section class="py-16 bg-gray-50">
-        @include('home.neighborhood')
-    </section>
-
     <!-- Call to Action -->
     <section class="py-16 bg-orange-500 text-white">
         <div class="container mx-auto px-4">
@@ -93,7 +88,7 @@
                     <h2 class="text-3xl font-bold mb-2">Ready to Find Your Dream Property?</h2>
                     <p class="text-white opacity-90">Contact our expert agents today for personalized assistance</p>
                 </div>
-                <a href="#"
+                <a href="{{ route('contact_us') }}"
                     class="mt-6 md:mt-0 bg-white text-blue-900 hover:bg-blue-900 hover:text-white border border-white font-medium py-3 px-8 rounded-md transition-all duration-300">Contact
                     Us Today</a>
             </div>

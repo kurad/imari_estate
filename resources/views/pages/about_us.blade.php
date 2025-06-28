@@ -60,12 +60,12 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                 <div>
                     <h2 class="text-3xl font-bold text-gray-800 mb-6">Our Humble Beginnings</h2>
-                    <p class="text-gray-600 mb-4">Founded in 2005 by John and Sarah Richardson, Premium Real Estate started as a small boutique agency with a simple mission: to provide honest, transparent real estate services in an industry that often lacked both.</p>
-                    <p class="text-gray-600 mb-4">What began as a two-person operation in a modest office has grown into one of the region's most trusted full-service real estate firms, with over 50 dedicated professionals serving residential and commercial clients.</p>
+                    <p class="text-gray-600 mb-4">Founded in 2025 by Edison Muhayimana, Imari Real Estate started as a small business agency with a simple mission: to provide honest, transparent real estate services in an industry that often lacked both.</p>
+                    <p class="text-gray-600 mb-4">What began as a one-person operation in a modest office has grown into one of the region's most trusted full-service real estate firms, with more dedicated professionals serving residential and commercial clients.</p>
                     <div class="bg-orange-50 p-6 rounded-lg border-l-4 border-secondary">
                         <h3 class="font-bold text-secondary mb-2">Our Founding Principle</h3>
-                        <p class="text-gray-700">"Real estate isn't just about properties—it's about people's lives, dreams, and futures. We succeed when our clients do."</p>
-                        <p class="text-gray-600 mt-2">— John & Sarah Richardson, Founders</p>
+                        <p class="text-gray-700">"Real estate isn't just about properties — it's about people's lives, dreams, and futures. We succeed when our clients do."</p>
+                        <p class="text-gray-600 mt-2">— Edison Muhayimana, Founder</p>
                     </div>
                 </div>
                 <div class="rounded-lg overflow-hidden shadow-xl">
