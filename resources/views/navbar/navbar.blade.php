@@ -5,10 +5,8 @@
     <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-4 md:py-6">
             <!-- Logo Container - Improved alignment -->
-            <div class="flex items-center space-x-4">
-                <img src="{{ asset('logo/Imari.jpg') }}" class="h-16 w-16 md:h-20 md:w-20" alt="Company Logo">
-                <!-- <h4>Logo of IMARI Estate</h4> -->
-                <!-- Text Logo - Better grouping and spacing -->
+            <div class="flex items-center space-x-4 ml-8">
+                <img src="{{ asset('logo/Imari.jpg') }}" class="h-24 w-24 md:h-32 md:w-32" alt="Company Logo">
 
             </div>
 

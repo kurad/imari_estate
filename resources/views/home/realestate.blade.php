@@ -6,7 +6,7 @@
 
     @if($properties->isEmpty())
         <div class="text-center text-gray-500 text-lg py-20">
-            No properties available.
+            No properties listing available.
         </div>
     @else
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
