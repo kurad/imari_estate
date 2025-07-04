@@ -146,69 +146,124 @@
             <h2 class="text-3xl font-bold text-center text-gray-800 mb-4">Meet Our Leadership</h2>
             <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Our experienced leadership team brings decades of combined real estate expertise to serve your needs.</p>
             
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Team Member 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
-                             alt="John Richardson" 
-                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/director.jpg') }}" alt="The Managing Director" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800">John Richardson</h3>
-                        <p class="text-secondary font-medium mb-3">Founder & CEO</p>
-                        <p class="text-gray-600 mb-4">With over 25 years in real estate, John's vision continues to guide our company's growth and client-focused approach.</p>
+                        <h3 class="text-xl font-bold text-gray-800">Edison Muhayimana</h3>
+                        <p class="text-secondary font-medium mb-3">The Managing Director</p>
+                        <p class="text-gray-600 mb-4">Edison has over 20 years of experience in the real estate industry, Private Notary specializing in luxury properties.</p>
                         <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fab fa-linkedin-in text-lg"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fas fa-envelope text-lg"></i>
-                            </a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
                         </div>
                     </div>
                 </div>
-                
                 <!-- Team Member 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=688&q=80" 
-                             alt="Sarah Richardson" 
-                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/hr.jpg') }}" alt="Human Resources" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800">Sarah Richardson</h3>
-                        <p class="text-secondary font-medium mb-3">Founder & COO</p>
-                        <p class="text-gray-600 mb-4">Sarah's operational expertise ensures our clients receive seamless service from first contact to closing.</p>
+                        <h3 class="text-xl font-bold text-gray-800">Claudine Kayitesi</h3>
+                        <p class="text-secondary font-medium mb-3">Human Resources</p>
+                        <p class="text-gray-600 mb-4">Claudine is an expert in talent acquisition and employee relations, with a passion for fostering inclusive workplaces.</p>
                         <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fab fa-linkedin-in text-lg"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fas fa-envelope text-lg"></i>
-                            </a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
                         </div>
                     </div>
                 </div>
-                
                 <!-- Team Member 3 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-                    <div class="h-64 overflow-hidden">
-                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" 
-                             alt="Michael Chen" 
-                             class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/land_analyst.jpg') }}" alt="Land Analyst" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800">Michael Chen</h3>
-                        <p class="text-secondary font-medium mb-3">Director of Sales</p>
-                        <p class="text-gray-600 mb-4">Michael leads our sales team with a focus on creating exceptional value for both buyers and sellers.</p>
+                        <h3 class="text-xl font-bold text-gray-800">Jean Pierre Bangambiki</h3>
+                        <p class="text-secondary font-medium mb-3">Land Analyst</p>
+                        <p class="text-gray-600 mb-4">Jean Pierre specializes in land use planning and environmental assessment, ensuring sustainable development practices.</p>
                         <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fab fa-linkedin-in text-lg"></i>
-                            </a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300">
-                                <i class="fas fa-envelope text-lg"></i>
-                            </a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 4 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/cto.jpg') }}" alt="Chief Technology Officer" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Benjamin Kuradusenge</h3>
+                        <p class="text-secondary font-medium mb-3">Chief Technology Officer</p>
+                        <p class="text-gray-600 mb-4">Benjamin is a technology visionary with a focus on innovative solutions and digital transformation.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 5 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/elodie.jpg') }}" alt="Customer Relations Manager" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Elodie Akoyiremeye</h3>
+                        <p class="text-secondary font-medium mb-3">Customer Relations Manager</p>
+                        <p class="text-gray-600 mb-4">Elodie is dedicated to enhancing customer satisfaction and fostering long-term relationships.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 6 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('img/nelson.jpg') }}" alt="Legal Advisor" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Nelson Turinumugisha</h3>
+                        <p class="text-secondary font-medium mb-3">Legal Advisor</p>
+                        <p class="text-gray-600 mb-4">Nelson is an expert in legal matters, ensuring compliance and mitigating risks.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 7 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('resources/img/member7.jpg') }}" alt="Project Design Manager" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Peter Dushime</h3>
+                        <p class="text-secondary font-medium mb-3">Project Design Manager</p>
+                        <p class="text-gray-600 mb-4">Short description about this team member.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Team Member 8 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
+                    <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
+                        <img src="{{ asset('resources/img/member8.jpg') }}" alt="Team Member 8" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold text-gray-800">Member Name</h3>
+                        <p class="text-secondary font-medium mb-3">Position</p>
+                        <p class="text-gray-600 mb-4">Short description about this team member.</p>
+                        <div class="flex space-x-3">
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
+                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
                         </div>
                     </div>
                 </div>

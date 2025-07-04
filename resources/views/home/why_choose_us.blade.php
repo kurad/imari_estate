@@ -36,7 +36,7 @@
             <div class="relative">
                 <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Real Estate Agent" class="w-full rounded-lg shadow-lg">
                 <div class="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg w-3/4">
-                    <h3 class="text-xl font-bold text-blue-900 mb-2">10+ Years Experience</h3>
+                    <h3 class="text-xl font-bold text-blue-900 mb-2">5+ Years Experience</h3>
                     <p class="text-gray-600">Our team has helped hundreds of clients find their dream properties.</p>
                 </div>
             </div>
