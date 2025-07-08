@@ -1,6 +1,18 @@
-  <form action="{{ route('properties.store') }}" method="POST" enctype="multipart/form-data"
+<form action="{{ route('properties.store') }}" method="POST" enctype="multipart/form-data"
       class="grid grid-cols-1 md:grid-cols-2 gap-6 bg-white p-6 rounded-lg shadow-lg w-full max-w-4xl">
       @csrf
+      @if ($errors->any())
+          <div class="md:col-span-2 mb-4">
+              <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative" role="alert">
+                  <strong class="font-bold">Whoops!</strong> There were some problems with your input.<br><br>
+                  <ul class="list-disc pl-5 mt-2">
+                      @foreach ($errors->all() as $error)
+                          <li>{{ $error }}</li>
+                      @endforeach
+                  </ul>
+              </div>
+          </div>
+      @endif
       <!-- Property Title -->
       <div>
           <label class="block text-sm font-medium text-gray-600 mb-1">Property Title</label>
