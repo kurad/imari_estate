@@ -108,6 +108,10 @@ class PropertyController extends Controller
      */
     public function update(Request $request, Property $property)
     {
+        // Only allow the creator to update
+        if (auth()->id() !== $property->created_by) {
+            abort(403, 'Unauthorized action.');
+        }
         $validated = $request->validate([
             
             'title' => 'required|string',
@@ -185,5 +189,19 @@ class PropertyController extends Controller
     public function destroy(Property $property)
     {
         //
+    }
+
+    /**
+     * Mark the specified property as sold.
+     */
+    public function markAsSold(Property $property)
+    {
+        // Only allow the creator to mark as sold
+        if (auth()->id() !== $property->created_by) {
+            abort(403, 'Unauthorized action.');
+        }
+        $property->status = 'Sold';
+        $property->save();
+        return redirect()->back()->with('success', 'Property marked as sold.');
     }
 }

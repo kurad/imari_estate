@@ -60,6 +60,15 @@
                                     <i class="fas fa-edit"></i>
                                 </button>
                                 <button class="text-red-600 hover:text-red-800"><i class="fas fa-trash"></i></button>
+                                @if($item->status !== 'Sold')
+                                <form method="POST" action="{{ route('properties.markAsSold', $item->id) }}" onsubmit="return confirm('Mark this property as sold?');">
+                                    @csrf
+                                    @method('PUT')
+                                    <button type="submit" class="text-green-600 hover:text-green-800" title="Mark as Sold">
+                                        <i class="fas fa-check-circle"></i> Mark as Sold
+                                    </button>
+                                </form>
+                                @endif
                             </div>
                         </td>
                     </tr>

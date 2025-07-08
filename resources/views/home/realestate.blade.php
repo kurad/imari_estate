@@ -20,9 +20,15 @@
                     <div class="relative">
                         <img src="{{ asset($array[0]) }}" alt="Modern Apartment"
                             class="w-full h-64 object-cover hover:scale-105 transition-transform duration-500" />
-                        <div
-                            class="absolute top-4 right-4 bg-orange-500 text-white text-sm font-medium px-3 py-1 rounded-full">
-                            Featured</div>
+                        @if($item->status === 'Sold')
+                        <div class="absolute top-4 right-4 bg-gray-700 text-white text-sm font-medium px-3 py-1 rounded-full opacity-90">
+                            Sold
+                        </div>
+                        @else
+                        <div class="absolute top-4 right-4 bg-orange-500 text-white text-sm font-medium px-3 py-1 rounded-full">
+                            Featured
+                        </div>
+                        @endif
                     </div>
                     <div class="p-6">
                         <div class="flex justify-between items-start">
@@ -48,9 +54,13 @@
                             </div>
                         </div>
                         <div class="mt-6">
+                            @if($item->status !== 'Sold')
                             <a href="{{ route('property_details', $item->id) }}"
                                 class="block w-full text-center bg-orange-500 hover:bg-orange-600 text-white font-medium py-2 px-4 rounded-md transition-all duration-300">View
                                 Details</a>
+                            @else
+                            <span class="block w-full text-center bg-gray-300 text-gray-600 font-medium py-2 px-4 rounded-md cursor-not-allowed opacity-70">Sold Out</span>
+                            @endif
                         </div>
                     </div>
                 </div>

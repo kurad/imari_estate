@@ -26,7 +26,8 @@ Route::get('agent_dashboard',[AdminController::class,'agent_dashboard'])->name('
 Route::post('/properties', [PropertyController::class, 'store'])->name('properties.store');
 Route::put('/properties/{property}', [PropertyController::class, 'update'])->name('properties.update');
 
-
+// Mark property as sold
+Route::put('/properties/{property}/mark-as-sold', [PropertyController::class, 'markAsSold'])->name('properties.markAsSold');
 
 
 Route::post('/house_plan', [HousePlanController::class, 'store'])->name('house_plan.store');

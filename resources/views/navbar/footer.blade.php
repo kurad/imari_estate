@@ -5,24 +5,19 @@
             <div class="flex items-center space-x-4">
                 <img src="{{asset('logo/Imari.jpg')}}" class="h-16 w-16 md:h-20 md:w-20" alt="Company Logo">
             </div>
-            {{-- <p class="text-gray-300 mb-4">Your trusted partner for Imari real estate solutions.</p> --}}
-            <div class="flex space-x-4 mt-4">
-                <a href="https://web.facebook.com/profile.php?id=61575058444089" class="text-gray-300 hover:text-orange-500 transition-colors duration-300"><i class="fab fa-facebook-f"></i></a>
-                <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.instagram.com/kduska.realestate?igsh=YzljYTk1ODg3Zg==" class="text-gray-300 hover:text-orange-500 transition-colors duration-300"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300"><i class="fab fa-linkedin-in"></i></a>
-            </div>
+            <p class="text-gray-300 mb-4">Your trusted partner for Imari real estate solutions.</p>
+            
         </div>
         
         <!-- Quick Links -->
         <div>
             <h3 class="text-lg font-bold mb-4">Quick Links</h3>
             <ul class="space-y-2">
-                <li><a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Home</a></li>
-                <li><a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">About Us</a></li>
-                <li><a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Properties</a></li>
+                <li><a href="/" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Home</a></li>
+                <li><a href="/about_us" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">About Us</a></li>
+                <li><a href="/properties" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Properties</a></li>
                 {{-- <li><a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Services</a></li> --}}
-                <li><a href="#" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Contact</a></li>
+                <li><a href="/contact_us" class="text-gray-300 hover:text-orange-500 transition-colors duration-300">Contact</a></li>
             </ul>
         </div>
         
@@ -48,7 +43,7 @@
                 </li>
                 <li class="flex items-center">
                     <i class="fas fa-phone-alt mr-3 text-orange-500"></i>
-                    <span>+250788545947</span>
+                    <span>+250783578672</span>
                 </li>
                 <li class="flex items-center">
                     <i class="fas fa-envelope mr-3 text-orange-500"></i>

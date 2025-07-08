@@ -150,121 +150,97 @@
                 <!-- Team Member 1 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/director.jpg') }}" alt="The Managing Director" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/director.png') }}" alt="The Managing Director" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Edison Muhayimana</h3>
                         <p class="text-secondary font-medium mb-3">The Managing Director</p>
                         <p class="text-gray-600 mb-4">Edison has over 20 years of experience in the real estate industry, Private Notary specializing in luxury properties.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- Team Member 2 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/hr.jpg') }}" alt="Human Resources" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/hr.png') }}" alt="Human Resources" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Claudine Kayitesi</h3>
                         <p class="text-secondary font-medium mb-3">Human Resources</p>
                         <p class="text-gray-600 mb-4">Claudine is an expert in talent acquisition and employee relations, with a passion for fostering inclusive workplaces.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                       
                     </div>
                 </div>
                 <!-- Team Member 3 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/land_analyst.jpg') }}" alt="Land Analyst" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/land_analyst.jpg') }}" alt="Land Analyst" class="w-full h-full object-cover object-top mt-8 transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Jean Pierre Bangambiki</h3>
                         <p class="text-secondary font-medium mb-3">Land Analyst</p>
                         <p class="text-gray-600 mb-4">Jean Pierre specializes in land use planning and environmental assessment, ensuring sustainable development practices.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- Team Member 4 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/cto.jpg') }}" alt="Chief Technology Officer" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/cto.png') }}" alt="Chief Technology Officer" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Benjamin Kuradusenge</h3>
                         <p class="text-secondary font-medium mb-3">Chief Technology Officer</p>
                         <p class="text-gray-600 mb-4">Benjamin is a technology visionary with a focus on innovative solutions and digital transformation.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- Team Member 5 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/elodie.jpg') }}" alt="Customer Relations Manager" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/elodie.png') }}" alt="Customer Relations Manager" class="w-full h-full object-cover object-top mt-8 transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Elodie Akoyiremeye</h3>
                         <p class="text-secondary font-medium mb-3">Customer Relations Manager</p>
                         <p class="text-gray-600 mb-4">Elodie is dedicated to enhancing customer satisfaction and fostering long-term relationships.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- Team Member 6 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('img/nelson.jpg') }}" alt="Legal Advisor" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/nelson.png') }}" alt="Legal Advisor" class="w-full h-full object-cover object-top mt-8 transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Nelson Turinumugisha</h3>
                         <p class="text-secondary font-medium mb-3">Legal Advisor</p>
                         <p class="text-gray-600 mb-4">Nelson is an expert in legal matters, ensuring compliance and mitigating risks.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        
                     </div>
                 </div>
                 <!-- Team Member 7 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('resources/img/member7.jpg') }}" alt="Project Design Manager" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/peter.jpg') }}" alt="Project Design Manager" class="w-full h-full object-cover object-top mt-8 transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
                         <h3 class="text-xl font-bold text-gray-800">Peter Dushime</h3>
                         <p class="text-secondary font-medium mb-3">Project Design Manager</p>
-                        <p class="text-gray-600 mb-4">Short description about this team member.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        <p class="text-gray-600 mb-4">Peter leads our design and project management team, ensuring every project is delivered with creativity and precision.</p>
+                        
                     </div>
                 </div>
                 <!-- Team Member 8 -->
                 <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
                     <div class="h-64 overflow-hidden flex items-center justify-center bg-gray-100">
-                        <img src="{{ asset('resources/img/member8.jpg') }}" alt="Team Member 8" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <img src="{{ asset('img/deo.png') }}" alt="Business Development Manager" class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800">Member Name</h3>
-                        <p class="text-secondary font-medium mb-3">Position</p>
-                        <p class="text-gray-600 mb-4">Short description about this team member.</p>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fab fa-linkedin-in text-lg"></i></a>
-                            <a href="#" class="text-gray-400 hover:text-primary transition duration-300"><i class="fas fa-envelope text-lg"></i></a>
-                        </div>
+                        <h3 class="text-xl font-bold text-gray-800">Deogratias Ndagijimana</h3>
+                        <p class="text-secondary font-medium mb-3">Business Development Manager</p>
+                        <p class="text-gray-600 mb-4">Deo is focused on driving growth and expanding our market presence.</p>
+                        
                     </div>
                 </div>
             </div>
