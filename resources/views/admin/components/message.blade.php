@@ -21,16 +21,14 @@
                     <th class="py-3 px-4 text-left">ID</th>
                     <th class="py-3 px-4 text-left">User name</th>
                     <th class="py-3 px-4 text-left">Email</th>
+                    <th class="py-3 px-4 text-left">Phone</th>
                     <th class="py-3 px-4 text-left">Service</th>
                     <th class="py-3 px-4 text-left">Message</th>
                     <th class="py-3 px-4 text-left">Action</th>
                 </tr>
             </thead>
             <tbody>
-
-                @foreach ($message as $item)
-                    
-                
+                @foreach ($message as $item)                
                 <tr class="border-b bg-orange-50">
                     <td class="py-3 px-4">1</td>
                     <td class="py-3 px-4">{{$item->name}}</td>
