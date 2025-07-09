@@ -201,7 +201,7 @@
                         <img src="{{ asset('img/elodie.png') }}" alt="Customer Relations Manager" class="w-full h-full object-cover object-top mt-8 transition-transform duration-500 hover:scale-110">
                     </div>
                     <div class="p-6">
-                        <h3 class="text-xl font-bold text-gray-800">Elodie Akoyiremeye</h3>
+                        <h3 class="text-xl font-bold text-gray-800">Elodie Octavie Akoyiremeye</h3>
                         <p class="text-secondary font-medium mb-3">Customer Relations Manager</p>
                         <p class="text-gray-600 mb-4">Elodie is dedicated to enhancing customer satisfaction and fostering long-term relationships.</p>
                         
